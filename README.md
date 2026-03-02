@@ -149,7 +149,7 @@ const total = numbers.reduce(function(accumulator, element){
 console.log(evenNums);
 
 
-const studentsoff = ["Spone","patrick","femi","fuud"];
+const studentsoff = ["Spone", "patrick", "femi", "fuud"];
 const studentUpper =studentsoff.map(studentUpper);
 const studentlower = studentsoff.map(lowerCase);
 
@@ -163,7 +163,7 @@ function studentlower(element){
     return element.toLowerCase();
 }
 
-const words =["apple", "orange","Banana"];
+const words =["apple", "orange", "Banana"];
 const longWords = words.filter(getLongWords);
 const shortWords = words.filter(getShortWords);
 
